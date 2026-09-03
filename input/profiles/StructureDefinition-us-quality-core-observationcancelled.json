@@ -34,7 +34,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Observation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Observation|4.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -74,7 +74,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-notDoneReason"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-notDoneReason|0.5.0"
             ]
           }
         ]
@@ -137,7 +137,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-notDoneValueSet"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-notDoneValueSet|0.5.0"
             ]
           }
         ]
@@ -152,7 +152,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0"
             ]
           }
         ]
@@ -182,10 +182,10 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-relatedperson"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-relatedperson|0.5.0"
             ]
           }
         ]
@@ -323,12 +323,12 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-simple-observation",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-questionnaireresponse",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-simple-observation|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-questionnaireresponse|0.5.0",
               "http://hl7.org/fhir/us/core/StructureDefinition/us-core-documentreference|6.1.0",
-              "http://hl7.org/fhir/StructureDefinition/ImagingStudy",
-              "http://hl7.org/fhir/StructureDefinition/Media",
-              "http://hl7.org/fhir/StructureDefinition/MolecularSequence"
+              "http://hl7.org/fhir/StructureDefinition/ImagingStudy|4.0.1",
+              "http://hl7.org/fhir/StructureDefinition/Media|4.0.1",
+              "http://hl7.org/fhir/StructureDefinition/MolecularSequence|4.0.1"
             ]
           }
         ],

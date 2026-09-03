@@ -34,7 +34,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "FamilyMemberHistory",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/FamilyMemberHistory|4.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -46,7 +46,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0"
             ]
           }
         ]
@@ -90,7 +90,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/StructureDefinition/familymemberhistory-abatement"
+              "http://hl7.org/fhir/StructureDefinition/familymemberhistory-abatement|4.0.1"
             ]
           }
         ],
@@ -106,7 +106,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/StructureDefinition/familymemberhistory-severity"
+              "http://hl7.org/fhir/StructureDefinition/familymemberhistory-severity|4.0.1"
             ]
           }
         ],

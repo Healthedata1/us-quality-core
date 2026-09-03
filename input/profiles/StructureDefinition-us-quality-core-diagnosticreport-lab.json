@@ -45,11 +45,11 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-careplan",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-immunizationrecommendation",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-medicationrequest",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-nutritionorder",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-servicerequest"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-careplan|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-immunizationrecommendation|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-medicationrequest|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-nutritionorder|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-servicerequest|0.5.0"
             ]
           }
         ],
@@ -183,7 +183,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0"
             ]
           }
         ]
@@ -227,9 +227,9 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitionerrole",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitionerrole|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization|0.5.0"
             ]
           }
         ]
@@ -252,7 +252,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-observation-lab"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-observation-lab|0.5.0"
             ]
           }
         ]

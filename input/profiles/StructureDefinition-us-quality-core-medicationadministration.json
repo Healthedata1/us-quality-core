@@ -34,7 +34,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "MedicationAdministration",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicationAdministration",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/MedicationAdministration|4.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -75,7 +75,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-medication"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-medication|0.5.0"
             ]
           }
         ],
@@ -93,7 +93,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0"
             ]
           }
         ]
@@ -106,8 +106,8 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-encounter",
-              "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-encounter|0.5.0",
+              "http://hl7.org/fhir/StructureDefinition/EpisodeOfCare|4.0.1"
             ]
           }
         ]
@@ -131,7 +131,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-medicationrequest"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-medicationrequest|0.5.0"
             ]
           }
         ]

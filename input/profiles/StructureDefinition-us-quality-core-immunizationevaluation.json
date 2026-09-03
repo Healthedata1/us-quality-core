@@ -61,7 +61,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "ImmunizationEvaluation",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/ImmunizationEvaluation|4.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -105,7 +105,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0"
             ]
           }
         ]
@@ -124,7 +124,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization|0.5.0"
             ]
           }
         ],
@@ -151,7 +151,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-immunization"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-immunization|0.5.0"
             ]
           }
         ]

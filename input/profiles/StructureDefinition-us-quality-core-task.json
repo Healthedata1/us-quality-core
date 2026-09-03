@@ -34,7 +34,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Task",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Task",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Task|4.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [

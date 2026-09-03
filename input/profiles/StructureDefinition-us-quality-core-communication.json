@@ -34,7 +34,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Communication",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Communication",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Communication|4.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -60,8 +60,8 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient",
-              "http://hl7.org/fhir/StructureDefinition/Group"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0",
+              "http://hl7.org/fhir/StructureDefinition/Group|4.0.1"
             ]
           }
         ]
@@ -93,13 +93,13 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-device",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-device|0.5.0",
               "http://hl7.org/fhir/us/core/StructureDefinition/us-core-implantable-device|6.1.0",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-relatedperson",
-              "http://hl7.org/fhir/StructureDefinition/Group"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-relatedperson|0.5.0",
+              "http://hl7.org/fhir/StructureDefinition/Group|4.0.1"
             ]
           }
         ]
@@ -112,12 +112,12 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-device",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-device|0.5.0",
               "http://hl7.org/fhir/us/core/StructureDefinition/us-core-implantable-device|6.1.0",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-relatedperson"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-relatedperson|0.5.0"
             ]
           }
         ]

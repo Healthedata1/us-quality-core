@@ -34,7 +34,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Flag",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Flag",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Flag|4.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -69,11 +69,11 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-location",
-              "http://hl7.org/fhir/StructureDefinition/Group",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization",
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-location|0.5.0",
+              "http://hl7.org/fhir/StructureDefinition/Group|4.0.1",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-organization|0.5.0",
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-practitioner|0.5.0"
             ]
           }
         ]

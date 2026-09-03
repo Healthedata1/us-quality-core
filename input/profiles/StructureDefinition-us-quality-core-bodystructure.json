@@ -34,7 +34,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "BodyStructure",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/BodyStructure",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/BodyStructure|4.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -79,7 +79,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0"
             ]
           }
         ]

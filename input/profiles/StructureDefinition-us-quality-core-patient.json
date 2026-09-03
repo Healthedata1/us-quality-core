@@ -34,7 +34,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Patient",
-  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|6.1.0",
+  "baseDefinition": "http://hl7.org/fhir/us/core/StructureDefinition/us-core-patient|8.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -65,7 +65,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race|6.1.0"
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-race|8.0.1"
             ]
           }
         ],
@@ -99,7 +99,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity|6.1.0"
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-ethnicity|8.0.1"
             ]
           }
         ],
@@ -133,7 +133,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation|6.1.0"
+              "http://hl7.org/fhir/us/core/StructureDefinition/us-core-tribal-affiliation|8.0.1"
             ]
           }
         ],
@@ -363,7 +363,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/StructureDefinition/iso21090-preferred"
+              "http://hl7.org/fhir/StructureDefinition/iso21090-preferred|4.0.1"
             ]
           }
         ],
@@ -477,7 +477,7 @@
           {
             "code": "Extension",
             "profile": [
-              "http://hl7.org/fhir/StructureDefinition/iso21090-preferred"
+              "http://hl7.org/fhir/StructureDefinition/iso21090-preferred|4.0.1"
             ]
           }
         ],
@@ -699,7 +699,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-patient|0.5.0"
             ]
           }
         ],

@@ -34,7 +34,7 @@
   "kind": "resource",
   "abstract": false,
   "type": "Substance",
-  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Substance",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Substance|4.0.1",
   "derivation": "constraint",
   "differential": {
     "element": [
@@ -76,7 +76,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-substance"
+              "http://fhir.org/guides/onc/us-quality-core/StructureDefinition/us-quality-core-substance|0.5.0"
             ]
           }
         ]
